@@ -15,8 +15,19 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Global Game Jam 2020"
+config/name="Fix IT! - GGJ2020 - The Hidden Project Team"
+config/description="A game mady by The Hidden Project Team"
+run/main_scene="res://Menu/scenes/Menu.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/handheld/orientation="sensor_landscape"
+window/stretch/mode="viewport"
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 
