@@ -15,10 +15,13 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Fix IT! - GGJ2020 - The Hidden Project Team"
-config/description="A game mady by The Hidden Project Team"
+config/name="Fix IT! - GGJ2020"
 run/main_scene="res://Menu/scenes/Menu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+game="*res://game.gd"
 
 [display]
 
@@ -34,4 +37,5 @@ pointing/emulate_touch_from_mouse=true
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
+environment/default_clear_color=Color( 0.247059, 0.596078, 0.556863, 1 )
 environment/default_environment="res://default_env.tres"
